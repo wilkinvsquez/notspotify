@@ -1,4 +1,4 @@
-# 🎧 Spotify Clone – Learning Project
+# 🎧 Not Spotify – Learning Project
 
 This is a **Spotify-inspired music player** built with modern web technologies. It's a personal project made for **educational purposes**, aiming to strengthen my frontend skills by recreating a real-world app with a clean architecture and responsive UI.
 

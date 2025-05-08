@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="2; url=/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Redirecting...</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background: #121212;
+                color: #fff;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 3rem;
+                margin-bottom: 0.5rem;
+            }
+
+            p {
+                font-size: 1.25rem;
+                color: #b3b3b3;
+            }
+
+            .dot-flashing {
+                margin-top: 1rem;
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                background-color: #1db954;
+                color: #1db954;
+                animation: dotFlashing 1s infinite linear alternate;
+            }
+
+            @keyframes dotFlashing {
+                0% {
+                    background-color: #1db954;
+                }
+
+                50%,
+                100% {
+                    background-color: #404040;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Redirecting...</h1>
+        <p>You’ll be taken back to the home page shortly</p>
+        <div class="dot-flashing"></div>
+    </body>
+
+</html>

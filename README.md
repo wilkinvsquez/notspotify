@@ -20,15 +20,15 @@ This is a **Spotify-inspired music player** built with modern web technologies. 
 
 ## 📁 Project Structure
 
-src/
-├── components/ → Reusable UI components
-├── hooks/ → Custom React hooks (e.g., useAudioPlayer)
-├── layouts/ → Layout wrappers (e.g., with Player)
-├── pages/ → Route-based pages (Home, Search, etc.)
-├── store/ → Global state stores (Zustand)
-├── styles/ → Tailwind CSS & global styles
-├── assets/ → Static assets (images, icons, audio)
-└── utils/ → Helper functions
+### src/
+###### ├── components/ → Reusable UI components
+###### ├── hooks/ → Custom React hooks (e.g., useAudioPlayer)
+###### ├── layouts/ → Layout wrappers (e.g., with Player)
+###### ├── pages/ → Route-based pages (Home, Search, etc.)
+###### ├── store/ → Global state stores (Zustand)
+###### ├── styles/ → Tailwind CSS & global styles
+###### ├── assets/ → Static assets (images, icons, audio)
+###### └── utils/ → Helper functions
 
 ---
 

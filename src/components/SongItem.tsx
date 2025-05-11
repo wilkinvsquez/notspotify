@@ -6,7 +6,7 @@ interface SongItemProps {
 	desc: string;
 	//duration: string; // Por ejemplo "3:00"
 }
-export const SongItem = ({ image, name, desc, id }: SongItemProps) => {
+export const SongItem = ({ image, name, desc }: SongItemProps) => {
 	return (
 		<div className='min-w-[180px] p-2 px-3 rounded cursor-pointer hover:bg-[#ffffff26]'>
 			<img className='rounded' src={image} alt='' />

@@ -1,17 +1,15 @@
-import Player from "../components/Player";
-import { type ReactNode } from "react";
+import { Display } from "../components/Display";
+import { Player } from "../components/Player";
+import Sidebar from "../components/Sidebar";
 
-interface Props {
-	children: ReactNode;
-}
-
-function MainLayout({ children }: Props) {
+export default function MainLayout() {
 	return (
-		<div className='flex flex-col min-h-screen bg-gray-950 text-white'>
-			<main className='flex-1'>{children}</main>
+		<div className='h-screen bg-black'>
+			<div className='h-[90%] flex'>
+				<Sidebar />
+				<Display />
+			</div>
 			<Player />
 		</div>
 	);
 }
-
-export default MainLayout;
